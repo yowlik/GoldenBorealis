@@ -30,13 +30,13 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".black.Filter"
+            android:exported="false" />
+        <activity
             android:name=".black.Web"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
             android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name=".black.Filter"
-            android:exported="false" />
         <activity
             android:name=".black.MainActivity"
             android:exported="true"
@@ -54,11 +54,10 @@
 
                 <data android:scheme="myapp" />
             </intent-filter>
-
-            <meta-data
-                android:name="com.facebook.sdk.ApplicationId"
-                android:value="@string/facebook_app_id" />
         </activity>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
     </application>
 
 </manifest>

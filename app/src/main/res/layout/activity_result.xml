@@ -27,7 +27,7 @@
             android:text="Your Score : "
             android:textColor="@color/white"
             android:textSize="28dp"
-            android:textStyle="bold" />
+            android:fontFamily="@font/fonts1" />
 
         <TextView
             android:id="@+id/score"
@@ -36,7 +36,7 @@
             android:text="0"
             android:textColor="@color/white"
             android:textSize="28dp"
-            android:textStyle="bold" />
+            android:fontFamily="@font/fonts1" />
     </LinearLayout>
 
     <ImageView
