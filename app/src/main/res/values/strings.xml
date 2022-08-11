@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Golden Borealis</string>
+    <string name="image_chooser">Choose Image</string>
+    <string name="facebook_app_id">1768339636849330</string>
+    <string name="fb_login_protocol_scheme">fb1768339636849330</string>
+
+</resources>
